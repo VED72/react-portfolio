@@ -21,21 +21,37 @@ export const Contact = () => {
                     Get in touch with me vedangpolawar7272@gmail.com
                   </p>
                   <p class="links">Or find me on:</p>
-                  <a href="" target="blank">
-                    <i class="fab fa-linkedin">Linkedin</i>
-                  </a>
-                  <a href="https://github.com/VED72/portfolio_" target="blank">
-                    <i class="fab fa-github"></i> Github
-                  </a>
-                  <a href="" target="blank">
-                    <i class="fab fa-dev"></i> Dev Community
-                  </a>
-                  <a href="" target="blank">
-                    <i class="fab fa-twitter"> Twitter</i>
-                  </a>
-                  <a href="" target="blank">
-                    <i class="fab fa-instagram"></i> Instagram
-                  </a>
+                  <ul>
+                    <div>
+                      <li>
+                        <button type="button" class="btn btn-tetriary">
+                          <a href="" target="blank">
+                            <i class="fab fa-linkedin">Linkedin</i>
+                          </a>
+                        </button>
+                      </li>
+                    </div>
+                    <br />
+                    <div>
+                      <li>
+                        <button type="button" class="btn btn-tertiary">
+                          <a href="" target="blank">
+                            <i class="fab fa-github"></i> Github
+                          </a>
+                        </button>
+                      </li>
+                    </div>
+                    <br></br>
+                    <div>
+                      <li>
+                        <button type="button" class="btn btn-tertiary">
+                          <a href="" target="blank">
+                            <i class="fab fa-instagram"></i> Instagram
+                          </a>
+                        </button>
+                      </li>
+                    </div>
+                  </ul>
                 </div>
               }
             </TrackVisibility>
